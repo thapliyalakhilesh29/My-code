@@ -24,6 +24,7 @@ print(myfunc2([2,4,3,0,3]))
 print(myfunc2([2,4,3,3,5,4]))'''
 
 
+'''
 def myfunc3(*arg):
     my_num = list(arg)
     result =[]
@@ -33,3 +34,12 @@ def myfunc3(*arg):
 
 
 print(myfunc3(1,2,3,4,5,6,7,8,9,10))
+
+'''
+
+l1= ['a','b','c']
+l2= ''.join(l1)
+print(l2)   
+
+
+
